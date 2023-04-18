@@ -1,6 +1,10 @@
 * {
    box-sizing: border-box;
-   
+   font-family: 'Saira Condensed', sans-serif;
+}
+
+p {
+    font-size: 50px;
 }
 /* remove margin and padding from ul */
 ul{
@@ -14,8 +18,8 @@ ul, li {
     cursor: pointer;
     position: relative;
     padding: 12px 8px 12px 40px;
-    background: #fffae3;
-    font-size: 18px;
+    background: #a9bccf;
+    font-size: 22px;
     transition: .2s;
 /* Make LI unselectable */
 -webkit-user-select: none;
@@ -26,11 +30,12 @@ user-select: none;
 
 /* Add odd even colors to list */
 ul li:nth-child(odd) {
-    background: #fff3bb;
+    background: #d1deeb;
 }
 
 ul li:hover{
-    background: white;
+    background: #3c5f7a;
+    color: white;
 }
 
 ul li.checked::before{
@@ -60,7 +65,7 @@ ul li.checked::before{
 
 .header{
     padding: 30px 40px;
-    background-color: #fffae3;
+    background-color: #a9bccf;
     color: black;
     text-align: center;
 }
@@ -78,7 +83,8 @@ input {
 
 .addBtn {
     padding: 10px;
-    width: 25%;
+    margin-left: 10px;
+    width: 24%;
     background-color: black;
     color: white;
     float: left;
@@ -96,6 +102,6 @@ input {
 }
 
 .addBtn:hover{
-    background-color: gray;
+    background-color: #3c5f7a;
     color:white;
 }
